@@ -1,0 +1,29 @@
+# Origin root for oddcelot.github.io. Project sites live under their own
+# paths (/vite-plugin-lit/ and so on) and are open-source documentation:
+# search, AI answers and training are all welcome.
+
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+Allow: /
+# Pagefind's search index chunks: machine data, not pages.
+Disallow: /vite-plugin-lit/pagefind/
+
+# AI search crawlers: fetch pages that AI assistants cite in answers.
+User-agent: OAI-SearchBot
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+Allow: /
+Disallow: /vite-plugin-lit/pagefind/
+
+# AI training crawlers.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: CCBot
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+Allow: /
+Disallow: /vite-plugin-lit/pagefind/
+
+Sitemap: https://oddcelot.github.io/sitemap.xml
+Sitemap: https://oddcelot.github.io/vite-plugin-lit/sitemap-index.xml

@@ -1,0 +1,7 @@
+# oddcelot.github.io
+
+> Documentation sites for oddcelot's open-source projects.
+
+## Projects
+
+- [@oddsquad/vite-plugin-lit](https://oddcelot.github.io/vite-plugin-lit/llms.txt): True HMR for Lit components, CSS delivery helpers, and a DevTools timeline for Vite.
