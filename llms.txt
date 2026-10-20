@@ -4,4 +4,4 @@
 
 ## Projects
 
-- [@oddsquad/vite-plugin-lit](https://oddcelot.github.io/vite-plugin-lit/llms.txt): True HMR for Lit components, CSS delivery helpers, and a DevTools timeline for Vite.
+- [@oddsquad/vite-plugin-lit](https://vite-plugin-lit.oddsquad.dev/llms.txt): True HMR for Lit components, CSS delivery helpers, and a DevTools timeline for Vite.
